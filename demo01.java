@@ -1,7 +1,13 @@
 public class demo01{
+     private int id;
+     private String name;
+     private int age;
      public static void main(String[]args){
-        System.out.println("This is main");
-        System.out.println("It is the second time that I modify the file");
+        demo01 d=new demo01();
+	d.id="1";
+	d.name="萧峰"
+	d.age="32";
+        System.out.println(d.id+" "+d.name+" "+d.age);
      }
 
 }
