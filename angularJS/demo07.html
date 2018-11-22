@@ -1,0 +1,34 @@
+<html>
+   <head>
+       <title>循环对象数组</title>
+	   <script src="angular.min.js"></script>
+	   <script>
+	       //定义一个myApp模板
+		   var app=angular.module('myApp',[]);
+		   //定义一个myController控制器
+		   app.controller('myController',function($scope){
+		       //定义一个数组
+$scope.list=[
+	{name:'张三',math:80,chinese:90},
+	{name:'李四',math:87,chinese:78},
+	{name:'王五',math:78,chinese:87},
+	{name:'赵六',math:70,chinese:80}
+	        ];
+		   });
+	   </script>
+   </head>
+   <body ng-app="myApp" ng-controller="myController">
+       <table>
+	       <tr>
+		       <td>姓名</td>
+			   <td>数学</td>
+			   <td>语文</td>
+		   </tr>
+		   <tr ng-repeat="student in list">
+		       <td>{{student.name}}</td>
+			   <td>{{student.math}}</td>
+			   <td>{{student.chinese}}</td>
+		   </tr>
+	   </table>
+   </body>
+</html>

@@ -1,0 +1,24 @@
+<html>
+   <head>
+       <title>循环数组</title>
+	   <script src="angular.min.js"></script>
+       <script>
+	       //定义一个myApp模块
+		   var app=angular.module('myApp',[]);
+		   //定义一个控制器
+		   app.controller('myController',function($scope){//$scope作用于全局
+		       //定义数组
+			   $scope.arr=[34,54,22,576,87];
+		   });
+	   </script>
+   </head>
+   <body ng-app="myApp" ng-controller="myController">
+   
+   <table>
+       <tr ng-repeat="a in arr">
+	         <td>{{a}}</td>
+	   </tr>  
+   </table>
+   
+   </body>
+</html>
