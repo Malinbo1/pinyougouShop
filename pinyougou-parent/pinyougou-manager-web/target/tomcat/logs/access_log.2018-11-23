@@ -1,0 +1,10 @@
+0:0:0:0:0:0:0:1 - - [23/Nov/2018:10:24:27 +0800] "GET /admin/brand.html HTTP/1.1" 200 5117 http-bio-9002-exec-1 74
+0:0:0:0:0:0:0:1 - - [23/Nov/2018:10:24:27 +0800] "GET /plugins/adminLTE/css/AdminLTE.css HTTP/1.1" 200 110374 http-bio-9002-exec-3 428
+0:0:0:0:0:0:0:1 - - [23/Nov/2018:10:24:27 +0800] "GET /plugins/adminLTE/css/skins/_all-skins.min.css HTTP/1.1" 200 40757 http-bio-9002-exec-4 426
+0:0:0:0:0:0:0:1 - - [23/Nov/2018:10:24:27 +0800] "GET /plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 121237 http-bio-9002-exec-2 481
+0:0:0:0:0:0:0:1 - - [23/Nov/2018:10:24:27 +0800] "GET /plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 37045 http-bio-9002-exec-7 433
+0:0:0:0:0:0:0:1 - - [23/Nov/2018:10:24:27 +0800] "GET /plugins/jQuery/jquery-2.2.3.min.js HTTP/1.1" 200 85659 http-bio-9002-exec-6 420
+0:0:0:0:0:0:0:1 - - [23/Nov/2018:10:24:27 +0800] "GET /css/style.css HTTP/1.1" 200 2389 http-bio-9002-exec-5 408
+0:0:0:0:0:0:0:1 - - [23/Nov/2018:10:24:27 +0800] "GET /plugins/angularjs/angular.min.js HTTP/1.1" 304 - http-bio-9002-exec-8 67
+0:0:0:0:0:0:0:1 - - [23/Nov/2018:10:24:27 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-9002-exec-8 9
+0:0:0:0:0:0:0:1 - - [23/Nov/2018:10:24:32 +0800] "GET /brand/findAll.do HTTP/1.1" 200 908 http-bio-9002-exec-1 4885
